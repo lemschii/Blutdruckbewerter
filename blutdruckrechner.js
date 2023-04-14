@@ -29,6 +29,7 @@ $(document).ready(function () {
             resulttext1="Isolierte systolische Hypertonie";
         }
 
+   
 
         //DIA AUSWERTUNG
 
