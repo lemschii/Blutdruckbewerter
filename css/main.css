@@ -1,0 +1,12 @@
+body{
+    font-family: Trispace;
+    background-color: #F4E8E8;
+}
+
+#heading{
+    background-color: #E95555; 
+    height: 10vh; 
+    width: 100%; 
+    color: white;
+    
+}
