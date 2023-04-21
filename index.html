@@ -16,34 +16,27 @@
 <body>
     <div id="heading">
         <div style="padding-left:3vw; padding-top: 2vh;">
+            <div><img id="heartLogo" src="images/heartLogo.png" style="height: 5vh; width: 5vh;"></div>
             <div style="margin-bottom:1vh; margin-top: 2vh;" ><h1>Blutdruckauswertung</h1></div>
             <div>Bitte messen Sie nun Ihren Blutdruck. Danach geben Sie die Werte ein für die Auswertung.</div>
         </div>
     </div>
-    <div style="background-color: #E95555; border-bottom-left-radius:50%; border-bottom-right-radius:50%; padding-top: 10vh;"></div>
-    <div class="container">
-            <form>
-                <div class="form-group">
-                
-                <!--<label>Entspannen Sie sich, trinken Sie keinen Kaffee und messen Sie lieber mehrmals als nur auf einer Messung Ihre Maßnahmen zu basieren. Halten Sie<br>
-                das Blutdruckmessgerät auf Herzhöhe beim Messen. Dann zur Auswertung bitte die Werte eingeben. Diese Auswertung ist eine reine Hilfe bei<br>
-                der Interpretation Ihrer Werte, jedoch keine konkrete ärztlich sichere Bewertung, da das Alter, die Zeit des Messens und weiteres die Werte beeinflussen können.</label>-->
+    <div style="background-color: #E95555; border-bottom-left-radius:50%; border-bottom-right-radius:50%; padding-top: 15vh;"></div>
+    <div class="container" style="text-align: center;">
+                <div>
+                    <div>Systolischer Wert</div>
+                    <input type="number" id="sysInput">
+                </div> 
+                <div>
+                    <div>Diastolischer Wert</div>
+                    <input type="number" id="diaInput">
                 </div>
-                <div class="form-group">
-                <label for="formGroupExampleInput">Systolischer Wert</label>
-                <input type="number" class="form-control" id="sysInput">
-                </div>
-                <div class="form-group">
-                <label for="formGroupExampleInput2">Diastolischer Wert</label>
-                <input type="number" class="form-control" id="diaInput">
-                </div>
-                <button id="btn_Calculate" type="button" class="btn btn-primary btn-lg btn-block">Blutdruck überprüfen</button>
-                <div class="form-group">
-                <label for="formGroupExampleInput2">Ihr Blutdruck...</label>
-                <output type="number" class="form-control" id="valuesOutput">
-                </div>                
-            </form>          
-    </div>
+                <div>
+                    <button id="btn_Calculate" type="button" class="btn btn-primary btn-lg btn-block" style="margin-top: 2vh;">Blutdruck überprüfen</button>
+                    <div>Ihr Blutdruck...</div>
+                    <output type="number" id="valuesOutput">
+                </div>  
+        </div>      
 </body>
 
 </html>
