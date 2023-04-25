@@ -46,5 +46,8 @@ body{
     color: white;
     background-color: #E95555;
     border: #E95555;
-    position: absolute;
+    
+    bottom: 3vh;
+    width: 35vh;
+    align-self: center;
 }
