@@ -20,7 +20,7 @@ body{
 
 #centerSecondRect{
     position: absolute;
-    top: 60vh;
+    top: 64vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -42,12 +42,10 @@ body{
 }
 
 #btn_Calculate{
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: white;
     background-color: #E95555;
     border: #E95555;
     border-radius: 20px;
-    bottom: 3vh;
     width: 35vh;
-    align-self: center;
 }
