@@ -52,6 +52,6 @@ $(document).ready(function () {
             resulttext2="Ihr diastolischer Wert entspricht einer Hypertonie Grad 3.";
         }
 
-        document.getElementById("valuesOutput").textContent = resulttext1 + " " + resulttext2;
+        document.getElementById("valuesOutputOne").textContent = resulttext1 + " " + resulttext2;
     });
 });

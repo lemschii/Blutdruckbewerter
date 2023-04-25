@@ -13,8 +13,37 @@ body{
 
 #centerFirstRect {
     position: absolute;
-    top: 39%;
+    top: 39vh;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
+#centerSecondRect{
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#diaInput{
+    background-color:#E95555; 
+    border: #E95555;
+    border-radius: 25px;
+    padding: 5px;
+    color: white;
+}
+
+#sysInput{
+    background-color:#E95555; 
+    border: #E95555;
+    border-radius: 25px;
+    padding: 5px;
+    color: white;
+}
+
+#btn_Calculate{
+    margin-top: 2vh;
+    color: white;
+    background-color: #E95555;
+    border: #E95555;
+}
