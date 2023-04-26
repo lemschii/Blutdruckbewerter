@@ -49,3 +49,8 @@ body{
     border-radius: 20px;
     width: 35vh;
 }
+
+#valuesOutputOne{
+    position: relative;
+    top: 10vh;
+}
