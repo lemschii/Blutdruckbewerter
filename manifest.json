@@ -15,7 +15,8 @@
         "type": "image/png"
       }
     ],
-    "start_url": "index.html",
+    "start_url": "/app/index.html",
+    "scope": "/app/",
     "display": "fullscreen",
     "theme_color": "#E95555",
     "background_color": "#E95555"

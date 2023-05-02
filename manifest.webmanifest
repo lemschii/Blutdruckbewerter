@@ -1,22 +1,23 @@
 {
-    "name": "Jonathan Progressive Web App",
-    "short_name": "JonnyPWA",
-    "description": "Progressive Web App that checks your blood pressure",
-    "icons": [
-      {
-        "src": "images/logo.png",
-        "sizes": "32x32",
-        "type": "image/png"
-      },
-    
-      {
-        "src": "images/logo.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "start_url": "index.html",
-    "display": "fullscreen",
-    "theme_color": "#E95555",
-    "background_color": "#E95555"
-  }
+  "name": "Jonathan Progressive Web App",
+  "short_name": "JonnyPWA",
+  "description": "Progressive Web App that checks your blood pressure",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+  
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/app/index.html",
+  "scope": "/app/",
+  "display": "fullscreen",
+  "theme_color": "#E95555",
+  "background_color": "#E95555"
+}
