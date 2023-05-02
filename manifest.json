@@ -4,15 +4,15 @@
     "description": "Progressive Web App that checks your blood pressure",
     "icons": [
       {
-        "src": "images/logo.png",
+        "src": "/app/images/logo.png",
         "sizes": "32x32",
-        "type": "image/png"
+        "type": "icon"
       },
     
       {
-        "src": "images/logo.png",
+        "src": "/app/images/logo.png",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "icon"
       }
     ],
     "start_url": "/app/index.html",
